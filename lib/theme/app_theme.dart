@@ -22,7 +22,7 @@ class AppTheme {
 
   ThemeData theme() {
     return ThemeData(
-      useMaterial3: true,
+      useMaterial3: false,
       colorSchemeSeed: _colorThemes[selectedColor],
     );
   }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:primero_de_abril_labs/screens/docentes/contenido_pantalla_principal_docentes.dart';
+import 'package:primero_de_abril_labs/frontend/screens/docentes/pantalla_principal/contenido_pantalla_principal_docentes.dart';
 
 class PantallaPrincipalDocentes extends StatelessWidget {
   const PantallaPrincipalDocentes({super.key});

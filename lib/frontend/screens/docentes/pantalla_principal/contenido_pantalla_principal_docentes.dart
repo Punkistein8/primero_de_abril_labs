@@ -68,7 +68,9 @@ class ContenidoPantallaPrincipalDocentes extends StatelessWidget {
                   Colors.black,
                 ),
               ),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, '/laboratorios');
+              },
               child: const Text('Reservar Laboratorios'),
             ),
           ],

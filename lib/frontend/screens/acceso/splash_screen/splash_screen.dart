@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:primero_de_abril_labs/screens/acceso/splash_screen/contenido.dart';
-import 'package:primero_de_abril_labs/screens/acceso/login/login.dart';
+import 'package:primero_de_abril_labs/frontend/screens/acceso/splash_screen/contenido.dart';
+import 'package:primero_de_abril_labs/frontend/screens/acceso/login/login.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -18,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
     // Puedes usar aquí un Future.delayed para simular un tiempo de carga
     Future.delayed(const Duration(seconds: 3), () {
       // Navegar a la siguiente pantalla después del tiempo de carga
-      Navigator.push(
+      Navigator.pushReplacement(
         context,
         PageRouteBuilder(
           transitionDuration: const Duration(

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:primero_de_abril_labs/frontend/screens/admin/administracion_de_reservas/administracion_de_reservas.dart';
+import 'package:primero_de_abril_labs/frontend/screens/admin/gestion_de_docentes/gestion_de_docentes.dart';
 import 'package:primero_de_abril_labs/frontend/screens/docentes/detalles_de_laboratorios/detalles_de_laboratorios.dart';
 import 'package:primero_de_abril_labs/frontend/screens/docentes/pantalla_principal/pantalla_principal.dart';
 import 'package:primero_de_abril_labs/frontend/screens/docentes/reservacion_de_laboratorio/reservacion_de_laboratorio.dart';
@@ -24,6 +26,8 @@ class MainApp extends StatelessWidget {
         '/': (context) => const SplashScreen(),
         '/login': (context) => const Login(),
         '/docentes': (context) => const PantallaPrincipalDocentes(),
+        '/admins': (context) => const AdministracionDeReservas(),
+        '/gestion-docentes': (context) => const GestionDeDocentes(),
         '/laboratorios': (context) => const DetallesDeLaboratorios(),
         '/reservar-lab': (context) => const ReservacionDeLaboratorio(),
       },

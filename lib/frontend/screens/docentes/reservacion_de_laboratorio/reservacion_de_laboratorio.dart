@@ -25,7 +25,7 @@ class ReservacionDeLaboratorio extends StatelessWidget {
         ),
       ),
       // body: const ContenidoReservacionDeLaboratorio(),
-      body: CalendarApp(),
+      body: const CalendarApp(),
     );
   }
 }

@@ -76,6 +76,19 @@ class Login extends StatelessWidget {
                 },
                 child: const Text('Ingresar'),
               ),
+              const SizedBox(height: 20),
+              ElevatedButton(
+                style: const ButtonStyle(
+                  foregroundColor: MaterialStatePropertyAll<Color>(
+                      Color.fromARGB(255, 255, 255, 255)),
+                  backgroundColor: MaterialStatePropertyAll<Color>(
+                      Color.fromARGB(255, 0, 177, 68)),
+                ),
+                onPressed: () {
+                  Navigator.pushNamed(context, '/admins');
+                },
+                child: const Text('Ingresar Admins'),
+              ),
             ],
           ),
         ),

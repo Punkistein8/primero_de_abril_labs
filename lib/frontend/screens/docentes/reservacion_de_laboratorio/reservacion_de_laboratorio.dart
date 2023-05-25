@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:primero_de_abril_labs/frontend/screens/docentes/reservacion_de_laboratorio/contenido_reservacion_de_laboratorio.dart';
+// import 'package:primero_de_abril_labs/frontend/screens/docentes/reservacion_de_laboratorio/contenido_reservacion_de_laboratorio.dart';
+import 'package:primero_de_abril_labs/frontend/screens/docentes/reservacion_de_laboratorio/prueba_calen.dart';
 
 class ReservacionDeLaboratorio extends StatelessWidget {
   const ReservacionDeLaboratorio({super.key});
@@ -23,7 +24,8 @@ class ReservacionDeLaboratorio extends StatelessWidget {
           ),
         ),
       ),
-      body: ContenidoReservacionDeLaboratorio(),
+      // body: const ContenidoReservacionDeLaboratorio(),
+      body: CalendarApp(),
     );
   }
 }

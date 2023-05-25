@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:primero_de_abril_labs/frontend/screens/docentes/detalles_de_laboratorios/widgets/BotonListaLaboratorios.dart';
+import 'package:primero_de_abril_labs/frontend/screens/docentes/detalles_de_laboratorios/widgets/boton_lista_laboratorios.dart';
 
 class ContenidoPantallaDetallesLaboratorios extends StatefulWidget {
   const ContenidoPantallaDetallesLaboratorios({super.key});

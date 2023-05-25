@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+// import 'package:syncfusion_flutter_calendar/calendar.dart';
 
 class ContenidoReservacionDeLaboratorio extends StatefulWidget {
   const ContenidoReservacionDeLaboratorio({super.key});
@@ -10,23 +11,40 @@ class ContenidoReservacionDeLaboratorio extends StatefulWidget {
 
 class _ContenidoReservacionDeLaboratorioState
     extends State<ContenidoReservacionDeLaboratorio> {
-  late String dropdownValue = 'Opción 1';
+  late DateTime? fechaSeleccionada = DateTime.now();
+  late TimeOfDay? horaSeleccionada = TimeOfDay.now();
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.all(20),
+      padding: const EdgeInsets.all(20),
       child: Column(
         children: [
           TextField(
+            readOnly: true,
             controller: TextEditingController(
               text: 'Nombre del Docente logeado',
             ),
             onChanged: null,
             decoration: const InputDecoration(
-              labelText: 'Texto',
+              labelText: 'Docente',
             ),
           ),
+          const SizedBox(height: 20),
+          TextField(
+            readOnly: true,
+            controller: TextEditingController(
+              text: 'Nombre del Laboratorio seleccionado',
+            ),
+            onChanged: null,
+            decoration: const InputDecoration(
+              labelText: 'Laboratorio',
+            ),
+          ),
+          const SizedBox(height: 20),
+          const Column(
+            children: <Widget>[],
+          )
         ],
       ),
     );

@@ -19,7 +19,12 @@ class ReservacionDeLaboratorio extends StatelessWidget {
                 height: 30,
               ),
               SizedBox(width: 10),
-              Text('Reserva de Laboratorio #'),
+              Text(
+                'Reserva de Laboratorio #',
+                style: TextStyle(
+                  fontSize: 18,
+                ),
+              ),
             ],
           ),
         ),

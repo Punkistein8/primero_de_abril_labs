@@ -19,7 +19,9 @@ class AdministracionDeReservas extends StatelessWidget {
               height: 30,
             ),
             SizedBox(width: 10),
-            Text('Administración de Reservas'),
+            Text(
+              'Administración de Reservas',
+            ),
           ],
         )),
       ),

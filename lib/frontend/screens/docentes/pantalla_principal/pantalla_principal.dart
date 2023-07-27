@@ -19,7 +19,10 @@ class PantallaPrincipalDocentes extends StatelessWidget {
               height: 30,
             ),
             SizedBox(width: 10),
-            Text('Unidad Educativa Primero de Abril'),
+            Text(
+              'Unidad Educativa Primero de Abril',
+              style: TextStyle(fontSize: 15),
+            ),
           ],
         )),
       ),

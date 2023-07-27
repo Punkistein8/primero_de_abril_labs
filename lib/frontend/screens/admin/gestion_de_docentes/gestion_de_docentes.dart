@@ -10,7 +10,7 @@ class GestionDeDocentes extends StatelessWidget {
       appBar: AppBar(
         title: const Center(
             child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Image(
               image: AssetImage('assets/logo.png'),
@@ -18,7 +18,10 @@ class GestionDeDocentes extends StatelessWidget {
               height: 30,
             ),
             SizedBox(width: 10),
-            Text('Administración de Docentes'),
+            Text(
+              'Administración de Docentes',
+              style: TextStyle(fontSize: 15),
+            ),
           ],
         )),
       ),
